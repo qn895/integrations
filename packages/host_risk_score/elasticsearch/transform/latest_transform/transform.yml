@@ -7,11 +7,11 @@ latest:
     - host.name
 source:
   index:
-    - ".alerts-security.host-risk-score.all"
+    - ".alerts-security.host-risk-score.latest"
 sync:
   time:
-    delay: 2s
+    delay: 1s
     field: ingest_timestamp
 _meta:
-  fleet_transform_version: 0.1.0
+  fleet_transform_version: 0.2.0
   order: 2
