@@ -1,11 +1,11 @@
 format_version: 1.0.0
 name: transform
 title: "Transform"
-version: 0.0.1
+version: 0.1.0
 source:
   license: "Elastic-2.0"
 license: basic
-description: "Installs and optionally starts multiple example transform tasks"
+description: "Example test package for installing and optionally starting multiple example transform tasks according to specifications."
 type: integration
 categories:
   - custom
