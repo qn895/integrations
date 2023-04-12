@@ -31,3 +31,5 @@ retention_policy:
   time:
     field: order_date
     max_age: 30d
+_meta:
+  run_as_kibana_system: false
