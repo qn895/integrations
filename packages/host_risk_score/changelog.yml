@@ -1,3 +1,8 @@
+- version: "0.4.0"
+  changes:
+    - description: Set run_as_kibana_system to false to the transform _meta
+      type: enhancement
+      link: https://github.com/elastic/integrations/pull/10000
 - version: "0.3.0"
   changes:
     - description: Upgraded only package version, fleet_transform_version of both transforms remain same
