@@ -21,7 +21,7 @@ pivot:
         field: total_quantity
 description: Aggregated ecommerce data grouped by customer_id
 dest:
-  index: kibana_sample_data_ecommerce_transform2
+  index: kibana_sample_data_ecommerce_transform2-0.4.0
   aliases:
     kibana_sample_data_ecommerce_transform2.latest:
       move_on_creation: true
@@ -38,3 +38,4 @@ retention_policy:
     max_age: 30d
 _meta:
   run_as_kibana_system: false
+  fleet_transform_version: 0.2.0

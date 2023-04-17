@@ -11,7 +11,7 @@ latest:
   sort: "order_date"
 description: Latest ecommerce data with EUR currency sorted by order_date
 dest:
-  index: kibana_sample_data_ecommerce_transform1
+  index: kibana_sample_data_ecommerce_transform1-0.4.0
   aliases:
     kibana_sample_data_ecommerce_transform1.latest:
       move_on_creation: true
@@ -21,10 +21,11 @@ frequency: 5m
 sync:
   time:
     field: order_date
-    delay: 60s
+    delay: 30s
 retention_policy:
   time:
     field: order_date
     max_age: 30d
 _meta:
   run_as_kibana_system: false
+  fleet_transform_version: 0.2.0
