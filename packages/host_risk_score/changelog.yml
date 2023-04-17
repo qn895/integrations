@@ -1,6 +1,11 @@
+- version: "0.5.0"
+  changes:
+    - description: Add aliases to pivot_transform and latest_transform dest.index settings, run_as_kibana_system is false for latest, run_as_kibana_system is true for pivot
+      type: enhancement
+      link: https://github.com/elastic/integrations/pull/10000
 - version: "0.4.0"
   changes:
-    - description: Set run_as_kibana_system to false to the transform _meta
+    - description: Set run_as_kibana_system to false to pivot_transform's _meta (run_as_kibana_system is true for latest_transform)
       type: enhancement
       link: https://github.com/elastic/integrations/pull/10000
 - version: "0.3.0"
