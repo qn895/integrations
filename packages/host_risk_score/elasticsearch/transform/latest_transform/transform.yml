@@ -1,5 +1,5 @@
 dest:
-  index: ".alerts-security.host-risk-score-latest-0.5.0"
+  index: ".alerts-security.host-risk-score-latest-0.6.0"
   aliases:
     .alerts-security.host-risk-score-latest.latest:
       move_on_creation: true
@@ -18,6 +18,6 @@ sync:
     delay: 1s
     field: ingest_timestamp
 _meta:
-  fleet_transform_version: 0.2.0
+  fleet_transform_version: 0.3.0
   order: 2
   run_as_kibana_system: false

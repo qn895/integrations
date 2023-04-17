@@ -1,3 +1,8 @@
+- version: "0.6.0"
+  changes:
+    - description: Just incremented fleet_package_transform version and package version
+      type: enhancement
+      link: https://github.com/elastic/integrations/pull/10000
 - version: "0.5.0"
   changes:
     - description: Add aliases to pivot_transform and latest_transform dest.index settings, run_as_kibana_system is false for latest, run_as_kibana_system is true for pivot

@@ -1,6 +1,6 @@
 dest:
-  index: ".alerts-security.host-risk-score-0.5.0"
-  pipeline: 0.5.0-ml_hostriskscore_ingest_pipeline
+  index: ".alerts-security.host-risk-score-0.6.0"
+  pipeline: 0.6.0-ml_hostriskscore_ingest_pipeline
   aliases:
     .alerts-security.host-risk-score.latest:
       move_on_creation: true
@@ -85,6 +85,6 @@ sync:
     delay: 120s
     field: "@timestamp"
 _meta:
-  fleet_transform_version: 0.1.0
+  fleet_transform_version: 0.2.0
   order: 1
   run_as_kibana_system: true
