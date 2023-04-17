@@ -22,6 +22,11 @@ pivot:
 description: Aggregated ecommerce data grouped by customer_id
 dest:
   index: kibana_sample_data_ecommerce_transform2
+  aliases:
+    kibana_sample_data_ecommerce_transform2.latest:
+      move_on_creation: true
+    kibana_sample_data_ecommerce_transform2.all:
+      move_on_creation: false
 frequency: 5m
 sync:
   time:

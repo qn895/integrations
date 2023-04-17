@@ -12,6 +12,11 @@ latest:
 description: Latest ecommerce data with EUR currency sorted by order_date
 dest:
   index: kibana_sample_data_ecommerce_transform1
+  aliases:
+    kibana_sample_data_ecommerce_transform1.latest:
+      move_on_creation: true
+    kibana_sample_data_ecommerce_transform1.all:
+      move_on_creation: false
 frequency: 5m
 sync:
   time:
